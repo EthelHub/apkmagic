@@ -1,0 +1,865 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"liste",
+				"listen_port	(num)"
+			],
+			[
+				"f_che",
+				"f_check_deps"
+			],
+			[
+				"f_ch",
+				"f_check_root"
+			],
+			[
+				"speedtest",
+				"speedtest_cli2_1"
+			],
+			[
+				"SPEED",
+				"SPEEDTEST_BIN_EXISTS"
+			],
+			[
+				"IP",
+				"IPERF3_BIN_EXISTS"
+			],
+			[
+				"IFCONF",
+				"IFCONFIG_BIN_EXISTS"
+			],
+			[
+				"ETHT",
+				"ETHTOOL_BIN_EXISTS"
+			],
+			[
+				"PIN",
+				"PING_BIN_EXISTS"
+			],
+			[
+				"WGET",
+				"WGET_SERVER"
+			],
+			[
+				"SPEEDTES",
+				"SPEEDTEST_BINARY"
+			],
+			[
+				"SPEEDTEST",
+				"SPEEDTEST_VER"
+			],
+			[
+				"SPEE",
+				"SPEEDTEST_SERVER"
+			],
+			[
+				"IPERF",
+				"IPERF_PORT"
+			],
+			[
+				"IPER",
+				"IPERF_MUESTREO"
+			],
+			[
+				"IPEF",
+				"IPERF_WINDOW"
+			],
+			[
+				"IPERF_SE",
+				"IPERF_SECS"
+			],
+			[
+				"f_info",
+				"f_info_ifconfig"
+			],
+			[
+				"IPERF_",
+				"IPERF_SECS"
+			],
+			[
+				"FEC",
+				"FEC_DRV_LOAD"
+			],
+			[
+				"f",
+				"f_cabecera_fin"
+			],
+			[
+				"f_",
+				"f_cabecera_inicio"
+			],
+			[
+				"TRG_",
+				"TRG_KRNL_VERSION"
+			],
+			[
+				"TRG",
+				"TRG_HOSTNAME"
+			],
+			[
+				"PO",
+				"PORT_CONTAINER"
+			],
+			[
+				"POR",
+				"PORT_HOST"
+			],
+			[
+				"PORT_",
+				"PORT_HOST"
+			],
+			[
+				"cens",
+				"censoredWords	{}"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "apkmagic.sh",
+			"settings":
+			{
+				"buffer_size": 1598,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "faux.inc",
+			"settings":
+			{
+				"buffer_size": 1178,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Dockerfile",
+			"settings":
+			{
+				"buffer_size": 936,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Validate"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package control install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apkmagic"
+	],
+	"file_history":
+	[
+		"/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apkmagic/manifest.inc",
+		"/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apkmagic/androwarn.inc",
+		"/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apkmagic/qark.inc",
+		"/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apkmagic/androbugs.inc",
+		"/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apkmagic/phonegap.inc",
+		"/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apkmagic/strings.inc",
+		"/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apkmagic/config.inc",
+		"/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apkmagic/faux.inc",
+		"/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apkmagic/code_analysis.inc",
+		"/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/nimbooks/sources/AndroidManifest.xml",
+		"/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apkmagic/magic.sh",
+		"/Users/Kr0n0/Ing.Inversa/Proyectos/Nimbooks/magic.sh",
+		"/Users/Kr0n0/Ing.Inversa/Proyectos/Citibox/magic.sh",
+		"/Users/Kr0n0/Ing.Inversa/Proyectos/Citibox/apk/src/assets/www/js/citibox.js",
+		"/Users/Kr0n0/Ing.Inversa/Utilidades/qark/qark.py",
+		"/Volumes/Backups/Documentos/Estudios/Universidad/UNIR/calendario.txt",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Node.JS/saas/ctrl/ctrl.js",
+		"/Users/Kr0n0/Temporal/ssh_y_vpn.txt",
+		"/Users/Kr0n0/Temporal/diff",
+		"/Users/Kr0n0/Ing.Inversa/Proyectos/AZQ/Nuevo/Setup/META-INF/com/google/android/update-binary",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Node.JS/saas/irl.js",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Node.JS/saas/ctrl.js",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Node.JS/ejemplo/untitled.js",
+		"/Users/Kr0n0/EthelHub/Proyectos/SaaS/FRNT1.txt",
+		"/Users/Kr0n0/EthelHub/Proyectos/SaaS/SA1.txt",
+		"/Users/Kr0n0/EthelHub/Proyectos/SaaS/IR1.txt",
+		"/Users/Kr0n0/EthelHub/Proyectos/SaaS/VA1.txt",
+		"/Users/Kr0n0/EthelHub/Proyectos/SaaS/VA2.txt",
+		"/Users/Kr0n0/EthelHub/Proyectos/SaaS/VA3.txt",
+		"/Users/Kr0n0/Ing.Inversa/Proyectos/AZQ/Nuevo/Setup/META-INF/com/google/android/updater-script",
+		"/Users/Kr0n0/Temporal/textos.txt",
+		"/Users/Kr0n0/Temporal/asd",
+		"/Users/Kr0n0/Ing.Inversa/Hardware/ODroid-XU4/Android/boot.ini.maestraandroid",
+		"/Users/Kr0n0/Temporal/http.txt",
+		"/Users/Kr0n0/Downloads/procedimiento_flash.md",
+		"/Users/Kr0n0/Temporal/boot_old.txt",
+		"/Users/Kr0n0/Temporal/error_mirar.txt",
+		"/Users/Kr0n0/Downloads/aufs_patch.diff",
+		"/Users/Kr0n0/Downloads/out",
+		"/Users/Kr0n0/Downloads/out-old",
+		"/Users/Kr0n0/Temporal/8700BC14.asc",
+		"/Users/Kr0n0/Temporal/746E9EFD.asc",
+		"/Users/Kr0n0/Ing.Inversa/Utilidades/IDA/Hex-Rays_IDA_Pro_v6.6_Incl_Decompiler_SDK_Utils_And_Patch_Repack-TOYKIT1/TOYKIT.nfo",
+		"/Users/Kr0n0/Temporal/Charla con Sergio Rios.txt",
+		"/Users/Kr0n0/Documents/Documentos/Estudios/Universidad/UNIR/resumen_master.txt",
+		"/Users/Kr0n0/Máquinas Virtuales/Windows 7/DVD/serial.txt",
+		"/Users/Kr0n0/Desktop/mirary6.txt",
+		"/Users/Kr0n0/Desktop/mirar5.txt",
+		"/Users/Kr0n0/Desktop/mirar3.txt",
+		"/Users/Kr0n0/Desktop/mirar2.txt",
+		"/Users/Kr0n0/Desktop/mirar.txt",
+		"/Users/Kr0n0/Desktop/mirar4.txt",
+		"/Users/Kr0n0/Desktop/ioner.eu.txt",
+		"/Users/Kr0n0/Desktop/mirar7.txt",
+		"/Users/Kr0n0/Desktop/HACKATON.txt",
+		"/Users/Kr0n0/Temporal/SESION DOCKER",
+		"/Users/Kr0n0/smali",
+		"/Users/Kr0n0/asd2",
+		"/Users/Kr0n0/empresa.txt",
+		"/Users/Kr0n0/Desktop/REFERENCIAS.txt",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Bash/metrics-speedtest/README.md",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Bash/metrics-speedtest/scripts/check_speed.sh",
+		"/Users/Kr0n0/Documents/Documentos/Trabajo/Clientes/Case On IT/resumen_trabajo_indice_whitepaper.txt",
+		"/Users/Kr0n0/EthelHub/Hitos presentaciones campus.txt",
+		"/Users/Kr0n0/151216 - Reunion Pacto Socios UPSAM 1de2.txt",
+		"/Users/Kr0n0/EthelHub/Libros/Seguridad/ETHELHUB.txt",
+		"/Users/Kr0n0/Documents/Documentos/Trabajo/EthelHub/informe.txt",
+		"/Users/Kr0n0/Temporal/netflix_trazas_app_modificada.txt",
+		"/Users/Kr0n0/Temporal/netflix_trazas_app_original.txt",
+		"/Users/Kr0n0/EthelHub/Libros/Seguridad/ETHELHUB_HERRAMIENTAS.txt",
+		"/Users/Kr0n0/prueba/Kernel.git/listado_Logs.txt",
+		"/Users/Kr0n0/Downloads/docker-master/nginx-proxy/create_nginx-proxy_vol.sh",
+		"/Users/Kr0n0/Downloads/docker-master/nginx-proxy/stop_nginx-proxy.sh",
+		"/Users/Kr0n0/Downloads/docker-master/mongo/start_mongo_prod.sh",
+		"/Users/Kr0n0/Downloads/docker-master/jenkins/stop_jenkins_prod.sh",
+		"/Users/Kr0n0/Downloads/docker-master/jenkins/start_jenkins_prod.sh",
+		"/Users/Kr0n0/Downloads/docker-master/nginx-proxy/start_nginx-proxy.sh",
+		"/Users/Kr0n0/EthelHub/Datos_bancarios.txt",
+		"/Users/Kr0n0/Desktop/ETHELHUB.txt",
+		"/Users/Kr0n0/Desktop/TRABAJO_MAÑANA.txt",
+		"/Users/Kr0n0/Desktop/ETHELHUB_HERRAMIENTAS.txt",
+		"/Users/Kr0n0/Ing.Inversa/Proyectos/Nuevo_Netflix/smali/com/netflix/mediaclient/Log$1.smali",
+		"/Users/Kr0n0/Ing.Inversa/Proyectos/Nuevo_Netflix/smali/com/netflix/mediaclient/Log.smali",
+		"/Users/Kr0n0/Ing.Inversa/Proyectos/ModifyMy3/modifymy_v3/smali/com/test/modifymyapp/MainActivity.smali",
+		"/Users/Kr0n0/Ing.Inversa/Proyectos/ModifyMy/apk/src/res/layout/activity_main.xml",
+		"/Users/Kr0n0/EthelHub/Gestión/Reuniones/151216 - Reunion Pacto Socios UPSAM 1de2.txt",
+		"/Users/Kr0n0/Desarrollo/Android/OpenCV-android-sdk/README.android",
+		"/Users/Kr0n0/Desktop/Temporal_Case",
+		"/Users/Kr0n0/Temporal/procedimiento_flash.md",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Web/ethelhub-landing-www/Dockerfile",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Web/ethelhub-landing-bbdd/Dockerfile.Dockerfile",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Web/ethelhub-landing-bbdd/initdb.d/eth-with-datetime-create-user.sql",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Web/ethelhub-landing-bbdd/readme.md",
+		"/Users/Kr0n0/Desarrollo/CertFirmaEPDF.pdf",
+		"/Users/Kr0n0/Documents/Documentos/Trabajo/Curso Campus Dockers/Docker.txt",
+		"/Users/Kr0n0/Desktop/www.ramem.com.txt",
+		"/Users/Kr0n0/Desktop/ioner.eu",
+		"/Users/Kr0n0/Desktop/ramem.com",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Android/docker-cyanogenmod/README.md",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Android/docker-cyanogenmod/android-env-vars.sh",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Android/docker-cyanogenmod/host_cloud.sh",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Android/docker-cyanogenmod/run.sh",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Android/docker-cyanogenmod/build.sh",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Android/docker-cyanogenmod/startup.sh",
+		"/Users/Kr0n0/EthelHub/Cursos/Modelo_financiero.txt",
+		"/Users/Kr0n0/EthelHub/Legal/Indice.txt",
+		"/Users/Kr0n0/Desktop/TEMAS VARIOS",
+		"/Users/Kr0n0/PARA METER EN ETHELOK",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Web/config/apache2.conf",
+		"/Users/Kr0n0/Desarrollo/Proyectos/Web/Dockerfile",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Microservicios/apache-landing/apache_landing-rancher.txt",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Microservicios/apache-landing/start_apache_landing.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Microservicios/mysql-landing/create_mysql_vol.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Microservicios/mysql-landing/delete_mysql_vol.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Microservicios/apache-landing/create_apache_vol.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Microservicios/mysql-landing/mysql_landing-rancher.txt",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Microservicios/apache-landing/stop_apache_landing.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Microservicios/apache-landing/delete_apache_vol.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Microservicios/mysql-landing/stop_mysql_landing.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Microservicios/mysql-landing/start_mysql_landing.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Instancias de VM/rancher-ethelhub/create_rancher_vol.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Instancias de VM/rancher-ethelhub/stop_rancher.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Instancias de VM/rancher-ethelhub/delete_rancher_vol.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/Instancias de VM/rancher-ethelhub/start_rancher.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/rancher-ethelhub/create_rancher_vol.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/node-ethelhub-X/start_rancher_agent.sh",
+		"/Users/Kr0n0/EthelHub/Sistemas/Google Cloud Services.txt",
+		"/Users/Kr0n0/EthelHub/Sistemas/Scripts/rancher-ethelhub/start_rancher_agent.sh"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/Kr0n0/Documents/Documentos/Estudios/Universidad/Asignaturas/Programación de Aplicaciones/Proyecto/ControladorCUCargasClientes/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"DATE",
+			"Utilidad",
+			"wtcon",
+			"%20",
+			"%2F",
+			"%3A",
+			"&",
+			"http",
+			"/",
+			"http",
+			"network",
+			"web",
+			"http",
+			"passw",
+			"bitrate",
+			"KBPS",
+			"bps",
+			"5",
+			"openrecover",
+			"Originat",
+			"current_",
+			"Received:",
+			"Rece",
+			"From",
+			"600",
+			"short",
+			"User",
+			"Users",
+			"APACHE_",
+			"mod_",
+			"mod_s",
+			"mod_se",
+			"mod_sec",
+			"mod_secu",
+			"mod_secure",
+			"var/www",
+			"Root",
+			"DocumentRoo",
+			"DocumentRoot",
+			"short_",
+			"li",
+			"validaci",
+			"validación",
+			"alpha",
+			"fillter",
+			"filte",
+			"filter",
+			"28003",
+			"P0",
+			"fichero",
+			"ValidadorTiendas",
+			"debug",
+			" ",
+			"aére",
+			"Tail",
+			"tail",
+			"Por qu",
+			"Por qué ",
+			"Por qué lo",
+			"tráfico",
+			"rebote"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" ",
+			"/",
+			":",
+			"A0"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "apkmagic.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								741,
+								741
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										740,
+										741
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										721,
+										722
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "faux.inc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								882,
+								882
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										785,
+										786
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Dockerfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								700,
+								700
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/Dockerfile Syntax Highlighting/Syntaxes/Dockerfile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "apkmagic.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
