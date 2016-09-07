@@ -1,0 +1,473 @@
+===== Androwarn Report =====
+[+] Application Information
+	[.] Application Name                        
+		- N/A
+
+	[.] Application Version                     
+
+	[.] Package Name                            
+
+	[.] Description                             
+		- N/A
+		- N/A
+
+
+[+] Analysis Results
+	[.] Device Settings Harvesting              
+		- This application logs the message '2' under the tag 'CordovaPlugin'
+		- This application logs the message '4' under the tag 'CordovaBridge'
+		- This application logs the message '2' under the tag 'CordovaBridge'
+		- This application logs the message 'Bridge access attempt with wrong secret token, possibly from malicious code. Disabling exec() bridge!' under the tag 'CordovaBridge'
+		- This application logs the message '11' under the tag 'CordovaBridge'
+		- This application logs the message '2' under the tag 'CordovaLog'
+		- This application logs the message 'Dropping Native->JS message due to disabled bridge' under the tag 'JsMessageQueue'
+		- This application logs the message 'Got plugin result with no callbackId' under the tag 'JsMessageQueue'
+		- This application logs the message '3' under the tag 'JsMessageQueue'
+		- This application logs the message 'null 1' under the tag 'JsMessageQueue'
+		- This application logs the message 'nested call to setPaused detected.' under the tag 'JsMessageQueue'
+		- This application logs the message '2' under the tag 'SystemWebChromeClient'
+		- This application logs the message 'in self' under the tag 'InAppBrowser'
+		- This application logs the message 'loading in webview' under the tag 'InAppBrowser'
+		- This application logs the message 'loading in dialer' under the tag 'InAppBrowser'
+		- This application logs the message 'loading in InAppBrowser' under the tag 'InAppBrowser'
+		- This application logs the message 'in system' under the tag 'InAppBrowser'
+		- This application logs the message 'in blank' under the tag 'InAppBrowser'
+		- This application logs the message 'Should never happen' under the tag 'InAppBrowser'
+		- This application logs the message '3' under the tag 'StatusBar'
+		- This application logs the message 'Sending activity result to plugin' under the tag 'CordovaInterfaceImpl'
+		- This application logs the message ' yet! 1' under the tag 'CordovaInterfaceImpl'
+		- This application logs the message 'Hiding Custom View' under the tag 'CordovaWebViewImpl'
+		- This application logs the message 'showing Custom View' under the tag 'CordovaWebViewImpl'
+		- This application logs the message '3' under the tag 'SystemWebChromeClient'
+		- This application logs the message 'You have one job! To turn on Remote Web Debugging! YOU HAVE FAILED! ' under the tag 'SystemWebViewEngine'
+		- This application logs the message 'Disabled addJavascriptInterface() bridge since Android version is old.' under the tag 'SystemWebViewEngine'
+		- This application logs the message '12' under the tag 'SystemWebViewEngine'
+		- This application logs the message 'We are on a modern version of Android, we will deprecate HTC 2.3 devices in 2.8' under the tag 'SystemWebViewEngine'
+		- This application logs the message 'Doing the NavDump failed with bad arguments' under the tag 'SystemWebViewEngine'
+		- This application logs the message 'Doing the NavDump failed with bad arguments' under the tag 'SystemWebViewEngine SystemWebViewEngine'
+		- This application logs the message '3' under the tag 'SystemWebViewEngine'
+		- This application logs the message 'Asset manifest not found. Recursive copies and directory listing will be slow.' under the tag 'AssetFilesystem'
+		- This application logs the message 'Ljava/io/IOException;->getLocalizedMessage()Ljava/lang/String;' under the tag 'FileUtils'
+		- This application logs the message 'Unable to access these paths, most liklely due to USB storage' under the tag 'FileUtils'
+		- This application logs the message 'External storage unavailable, check to see if USB Mass Storage Mode is on' under the tag 'FileUtils'
+		- This application logs the message 'File plugin configuration error: Please set AndroidPersistentFileLocation in config.xml to one of "internal" (for new applications) or "compatibility" (for compatibility with previous versions)' under the tag 'FileUtils'
+		- This application logs the message 'Received permission callback for unknown request code' under the tag 'FileUtils'
+		- This application logs the message '8' under the tag 'FileUtils'
+		- This application logs the message 'Lorg/json/JSONException;->getMessage()Ljava/lang/String;' under the tag 'FileTransfer'
+		- This application logs the message '8' under the tag 'FileTransfer'
+		- This application logs the message 'Ljava/lang/Exception;->getMessage()Ljava/lang/String;' under the tag 'FileTransfer'
+		- This application logs the message '7' under the tag 'FileTransfer'
+		- This application logs the message '5' under the tag 'InAppBrowser'
+		- This application logs the message '6' under the tag 'InAppBrowser'
+		- This application logs the message '1' under the tag 'StatusBar'
+		- This application logs the message '4' under the tag 'StatusBar'
+		- This application logs the message '6' under the tag 'StatusBar'
+		- This application logs the message 'StatusBar: initialization' under the tag 'StatusBar'
+		- This application logs the message 'Found <access launch-external> within config.xml. Please use <allow-intent> instead.' under the tag 'WhitelistPlugin'
+
+	[.] Telephony Services Abuse                
+		- This application makes phone calls
+
+
+[+] Apk File
+	[.] File Name                               
+		- nimbooks.apk
+
+	[.] Fingerprint                             
+		- MD5: 3b504056f8291962f2bb09e84f6e3a84
+		- SHA-1: 9797b8a8859137bd5c829eb3ce394395fa4308f4
+		- SHA-256: 02c609ce711d0ac05aa8dd21e14b4155f9d5097acf4752ae9d3227d11caa5aa0
+
+	[.] File List                               
+
+	[.] Certificate Information                 
+		- Issuer:
+		- C=US
+		- ST=
+		- L=
+		- O=Android
+		- OU=
+		- CN=Android Debug
+
+
+		- Subject:
+		- C=US
+		- ST=
+		- L=
+		- O=Android
+		- OU=
+		- CN=Android Debug
+
+
+		- Serial number: 056C7AE8
+		- SHA-1 thumbprint: 3B0F9CA4ABF14895F561949E6675F329D6800AC0
+
+
+[+] Androidmanifest.Xml
+	[.] Main Activity                           
+
+	[.] Activities                              
+		- com.ionicframework.nimbooks531236.MainActivity
+
+	[.] Permissions                             
+		- android.permission.INTERNET
+		- android.permission.WRITE_EXTERNAL_STORAGE
+		- android.permission.READ_EXTERNAL_STORAGE
+
+
+[+] Apis Used
+	[.] Classes List                            
+		- android.app.Activity
+		- android.app.AlertDialog
+		- android.app.Dialog
+		- android.app.ProgressDialog
+		- android.content.ActivityNotFoundException
+		- android.content.BroadcastReceiver
+		- android.content.ContentResolver
+		- android.content.Context
+		- android.content.DialogInterface
+		- android.content.Intent
+		- android.content.IntentFilter
+		- android.content.pm.PackageManager
+		- android.content.res.AssetFileDescriptor
+		- android.content.res.AssetManager
+		- android.content.res.Resources
+		- android.database.Cursor
+		- android.graphics.Color
+		- android.graphics.drawable.ColorDrawable
+		- android.media.Ringtone
+		- android.media.RingtoneManager
+		- android.net.Uri
+		- android.os.Bundle
+		- android.os.Debug
+		- android.os.Environment
+		- android.os.Handler
+		- android.os.Looper
+		- android.os.StatFs
+		- android.provider.Settings
+		- android.util.Base64
+		- android.util.Log
+		- android.util.SparseArray
+		- android.util.TypedValue
+		- android.view.Display
+		- android.view.KeyEvent
+		- android.view.View
+		- android.view.ViewGroup
+		- android.view.Window
+		- android.view.WindowManager
+		- android.view.animation.AlphaAnimation
+		- android.view.animation.DecelerateInterpolator
+		- android.view.inputmethod.InputMethodManager
+		- android.webkit.ClientCertRequest
+		- android.webkit.ConsoleMessage
+		- android.webkit.CookieManager
+		- android.webkit.GeolocationPermissions
+		- android.webkit.HttpAuthHandler
+		- android.webkit.JsPromptResult
+		- android.webkit.JsResult
+		- android.webkit.MimeTypeMap
+		- android.webkit.PermissionRequest
+		- android.webkit.SslErrorHandler
+		- android.webkit.ValueCallback
+		- android.webkit.WebChromeClient
+		- android.webkit.WebResourceResponse
+		- android.webkit.WebSettings
+		- android.webkit.WebStorage
+		- android.webkit.WebView
+		- android.webkit.WebViewClient
+		- android.widget.Button
+		- android.widget.EditText
+		- android.widget.FrameLayout
+		- android.widget.ImageView
+		- android.widget.LinearLayout
+		- android.widget.ProgressBar
+		- android.widget.RelativeLayout
+		- android.widget.TextView
+		- com.ionicframework.nimbooks531236.MainActivity
+		- com.ohh2ahh.appavailability.AppAvailability
+		- io.github.pwlin.cordova.plugins.fileopener2.FileOpener2
+		- java.io.BufferedReader
+		- java.io.ByteArrayInputStream
+		- java.io.ByteArrayOutputStream
+		- java.io.Closeable
+		- java.io.File
+		- java.io.FileInputStream
+		- java.io.FileNotFoundException
+		- java.io.FileOutputStream
+		- java.io.FilterInputStream
+		- java.io.IOException
+		- java.io.InputStream
+		- java.io.InputStreamReader
+		- java.io.ObjectInputStream
+		- java.io.OutputStream
+		- java.io.PrintStream
+		- java.io.RandomAccessFile
+		- java.lang.AssertionError
+		- java.lang.Boolean
+		- java.lang.Class
+		- java.lang.ClassNotFoundException
+		- java.lang.Double
+		- java.lang.Enum
+		- java.lang.Exception
+		- java.lang.IllegalAccessException
+		- java.lang.IllegalArgumentException
+		- java.lang.IllegalStateException
+		- java.lang.Integer
+		- java.lang.InterruptedException
+		- java.lang.Long
+		- java.lang.Math
+		- java.lang.NullPointerException
+		- java.lang.NumberFormatException
+		- java.lang.Object
+		- java.lang.Package
+		- java.lang.RuntimeException
+		- java.lang.String
+		- java.lang.StringBuilder
+		- java.lang.System
+		- java.lang.Thread
+		- java.lang.Throwable
+		- java.lang.UnsupportedOperationException
+		- java.lang.reflect.Constructor
+		- java.lang.reflect.Field
+		- java.lang.reflect.Method
+		- java.net.HttpURLConnection
+		- java.net.MalformedURLException
+		- java.net.URL
+		- java.net.URLConnection
+		- java.nio.channels.FileChannel
+		- java.security.SecureRandom
+		- java.util.ArrayList
+		- java.util.Arrays
+		- java.util.Collection
+		- java.util.HashMap
+		- java.util.HashSet
+		- java.util.Hashtable
+		- java.util.Iterator
+		- java.util.LinkedHashMap
+		- java.util.LinkedList
+		- java.util.List
+		- java.util.Locale
+		- java.util.Map
+		- java.util.Set
+		- java.util.StringTokenizer
+		- java.util.TimeZone
+		- java.util.concurrent.ExecutorService
+		- java.util.concurrent.Executors
+		- java.util.regex.Matcher
+		- java.util.regex.Pattern
+		- java.util.zip.GZIPInputStream
+		- java.util.zip.Inflater
+		- javax.net.ssl.HttpsURLConnection
+		- javax.net.ssl.SSLContext
+		- org.apache.cordova.AuthenticationToken
+		- org.apache.cordova.CallbackContext
+		- org.apache.cordova.ConfigXmlParser
+		- org.apache.cordova.CordovaActivity
+		- org.apache.cordova.CordovaArgs
+		- org.apache.cordova.CordovaBridge
+		- org.apache.cordova.CordovaClientCertRequest
+		- org.apache.cordova.CordovaDialogsHelper
+		- org.apache.cordova.CordovaHttpAuthHandler
+		- org.apache.cordova.CordovaInterface
+		- org.apache.cordova.CordovaInterfaceImpl
+		- org.apache.cordova.CordovaPlugin
+		- org.apache.cordova.CordovaPreferences
+		- org.apache.cordova.CordovaResourceApi
+		- org.apache.cordova.CordovaWebView
+		- org.apache.cordova.CordovaWebViewEngine
+		- org.apache.cordova.CordovaWebViewImpl
+		- org.apache.cordova.CoreAndroid
+		- org.apache.cordova.LOG
+		- org.apache.cordova.NativeToJsMessageQueue
+		- org.apache.cordova.PermissionHelper
+		- org.apache.cordova.PluginEntry
+		- org.apache.cordova.PluginManager
+		- org.apache.cordova.PluginResult
+		- org.apache.cordova.ResumeCallback
+		- org.apache.cordova.Whitelist
+		- org.apache.cordova.device.Device
+		- org.apache.cordova.dialogs.Notification
+		- org.apache.cordova.engine.SystemCookieManager
+		- org.apache.cordova.engine.SystemExposedJsApi
+		- org.apache.cordova.engine.SystemWebChromeClient
+		- org.apache.cordova.engine.SystemWebView
+		- org.apache.cordova.engine.SystemWebViewClient
+		- org.apache.cordova.engine.SystemWebViewEngine
+		- org.apache.cordova.file.AssetFilesystem
+		- org.apache.cordova.file.ContentFilesystem
+		- org.apache.cordova.file.DirectoryManager
+		- org.apache.cordova.file.EncodingException
+		- org.apache.cordova.file.FileExistsException
+		- org.apache.cordova.file.FileUtils
+		- org.apache.cordova.file.Filesystem
+		- org.apache.cordova.file.InvalidModificationException
+		- org.apache.cordova.file.LocalFilesystem
+		- org.apache.cordova.file.LocalFilesystemURL
+		- org.apache.cordova.file.NoModificationAllowedException
+		- org.apache.cordova.file.PendingRequests
+		- org.apache.cordova.file.TypeMismatchException
+		- org.apache.cordova.filetransfer.FileProgressResult
+		- org.apache.cordova.filetransfer.FileTransfer
+		- org.apache.cordova.filetransfer.FileUploadResult
+		- org.apache.cordova.inappbrowser.InAppBrowser
+		- org.apache.cordova.inappbrowser.InAppBrowserDialog
+		- org.apache.cordova.inappbrowser.InAppChromeClient
+		- org.apache.cordova.splashscreen.SplashScreen
+		- org.apache.cordova.statusbar.StatusBar
+		- org.apache.cordova.whitelist.WhitelistPlugin
+		- org.json.JSONArray
+		- org.json.JSONException
+		- org.json.JSONObject
+		- org.xmlpull.v1.XmlPullParser
+		- org.xmlpull.v1.XmlPullParserException
+
+	[.] Internal Classes List                   
+		- com.ionicframework.nimbooks531236.MainActivity
+		- com.ohh2ahh.appavailability.AppAvailability
+		- io.github.pwlin.cordova.plugins.fileopener2.FileOpener2
+		- org.apache.cordova.CallbackContext
+		- org.apache.cordova.Config
+		- org.apache.cordova.ConfigXmlParser
+		- org.apache.cordova.CordovaActivity
+		- org.apache.cordova.CordovaBridge
+		- org.apache.cordova.CordovaDialogsHelper
+		- org.apache.cordova.CordovaInterfaceImpl
+		- org.apache.cordova.CordovaPlugin
+		- org.apache.cordova.CordovaPreferences
+		- org.apache.cordova.CordovaResourceApi
+		- org.apache.cordova.CordovaWebViewImpl
+		- org.apache.cordova.CoreAndroid
+		- org.apache.cordova.NativeToJsMessageQueue
+		- org.apache.cordova.PermissionHelper
+		- org.apache.cordova.PluginEntry
+		- org.apache.cordova.PluginManager
+		- org.apache.cordova.PluginResult
+		- org.apache.cordova.ResumeCallback
+		- org.apache.cordova.Whitelist
+		- org.apache.cordova.device.Device
+		- org.apache.cordova.dialogs.Notification
+		- org.apache.cordova.engine.SystemExposedJsApi
+		- org.apache.cordova.engine.SystemWebChromeClient
+		- org.apache.cordova.engine.SystemWebView
+		- org.apache.cordova.engine.SystemWebViewClient
+		- org.apache.cordova.engine.SystemWebViewEngine
+		- org.apache.cordova.file.AssetFilesystem
+		- org.apache.cordova.file.ContentFilesystem
+		- org.apache.cordova.file.DirectoryManager
+		- org.apache.cordova.file.FileUtils
+		- org.apache.cordova.file.Filesystem
+		- org.apache.cordova.file.LocalFilesystem
+		- org.apache.cordova.file.LocalFilesystemURL
+		- org.apache.cordova.file.PendingRequests
+		- org.apache.cordova.filetransfer.FileTransfer
+		- org.apache.cordova.inappbrowser.InAppBrowser
+		- org.apache.cordova.inappbrowser.InAppBrowserDialog
+		- org.apache.cordova.inappbrowser.InAppChromeClient
+		- org.apache.cordova.labs.keyboard.Keyboard
+		- org.apache.cordova.splashscreen.SplashScreen
+		- org.apache.cordova.statusbar.StatusBar
+		- org.apache.cordova.whitelist.WhitelistPlugin
+
+	[.] External Classes List                   
+		- com.ionicframework.nimbooks531236.BuildConfig
+		- com.ionicframework.nimbooks531236.R
+		- com.ohh2ahh.appavailability.AppAvailability
+		- io.github.pwlin.cordova.plugins.fileopener2.FileOpener2
+		- org.apache.cordova.AuthenticationToken
+		- org.apache.cordova.BuildConfig
+		- org.apache.cordova.CallbackContext
+		- org.apache.cordova.Config
+		- org.apache.cordova.ConfigXmlParser
+		- org.apache.cordova.CordovaActivity
+		- org.apache.cordova.CordovaArgs
+		- org.apache.cordova.CordovaBridge
+		- org.apache.cordova.CordovaClientCertRequest
+		- org.apache.cordova.CordovaDialogsHelper
+		- org.apache.cordova.CordovaHttpAuthHandler
+		- org.apache.cordova.CordovaInterfaceImpl
+		- org.apache.cordova.CordovaPlugin
+		- org.apache.cordova.CordovaPreferences
+		- org.apache.cordova.CordovaResourceApi
+		- org.apache.cordova.CordovaWebViewImpl
+		- org.apache.cordova.CoreAndroid
+		- org.apache.cordova.LOG
+		- org.apache.cordova.NativeToJsMessageQueue
+		- org.apache.cordova.PermissionHelper
+		- org.apache.cordova.PluginEntry
+		- org.apache.cordova.PluginManager
+		- org.apache.cordova.PluginResult
+		- org.apache.cordova.ResumeCallback
+		- org.apache.cordova.Whitelist
+		- org.apache.cordova.device.Device
+		- org.apache.cordova.dialogs.Notification
+		- org.apache.cordova.engine.SystemCookieManager
+		- org.apache.cordova.engine.SystemExposedJsApi
+		- org.apache.cordova.engine.SystemWebChromeClient
+		- org.apache.cordova.engine.SystemWebView
+		- org.apache.cordova.engine.SystemWebViewClient
+		- org.apache.cordova.engine.SystemWebViewEngine
+		- org.apache.cordova.file.AssetFilesystem
+		- org.apache.cordova.file.ContentFilesystem
+		- org.apache.cordova.file.DirectoryManager
+		- org.apache.cordova.file.EncodingException
+		- org.apache.cordova.file.FileExistsException
+		- org.apache.cordova.file.FileUtils
+		- org.apache.cordova.file.Filesystem
+		- org.apache.cordova.file.InvalidModificationException
+		- org.apache.cordova.file.LocalFilesystem
+		- org.apache.cordova.file.LocalFilesystemURL
+		- org.apache.cordova.file.NoModificationAllowedException
+		- org.apache.cordova.file.PendingRequests
+		- org.apache.cordova.file.TypeMismatchException
+		- org.apache.cordova.filetransfer.FileProgressResult
+		- org.apache.cordova.filetransfer.FileTransfer
+		- org.apache.cordova.filetransfer.FileUploadResult
+		- org.apache.cordova.inappbrowser.InAppBrowser
+		- org.apache.cordova.inappbrowser.InAppBrowserDialog
+		- org.apache.cordova.inappbrowser.InAppChromeClient
+		- org.apache.cordova.labs.keyboard.Keyboard
+		- org.apache.cordova.splashscreen.SplashScreen
+		- org.apache.cordova.statusbar.StatusBar
+		- org.apache.cordova.whitelist.WhitelistPlugin
+
+	[.] Internal Packages List                  
+		- com.ionicframework.nimbooks531236
+		- com.ohh2ahh.appavailability
+		- io.github.pwlin.cordova.plugins.fileopener2
+		- org.apache.cordova
+		- org.apache.cordova.device
+		- org.apache.cordova.dialogs
+		- org.apache.cordova.engine
+		- org.apache.cordova.file
+		- org.apache.cordova.filetransfer
+		- org.apache.cordova.inappbrowser
+		- org.apache.cordova.labs.keyboard
+		- org.apache.cordova.splashscreen
+		- org.apache.cordova.statusbar
+		- org.apache.cordova.whitelist
+
+	[.] External Packages List                  
+		- com.ionicframework.nimbooks531236
+		- com.ohh2ahh.appavailability
+		- io.github.pwlin.cordova.plugins.fileopener2
+		- org.apache.cordova
+		- org.apache.cordova.device
+		- org.apache.cordova.dialogs
+		- org.apache.cordova.engine
+		- org.apache.cordova.file
+		- org.apache.cordova.filetransfer
+		- org.apache.cordova.inappbrowser
+		- org.apache.cordova.labs.keyboard
+		- org.apache.cordova.splashscreen
+		- org.apache.cordova.statusbar
+		- org.apache.cordova.whitelist
+
+	[.] Intents Sent                            
+		- android.intent.action.GET_CONTENT
+		- android.intent.action.DIAL
+		- android.intent.action.VIEW
+		- v18
+		- v19
+		- android.intent.action.UNINSTALL_PACKAGE
+
+
