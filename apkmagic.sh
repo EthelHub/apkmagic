@@ -14,15 +14,19 @@
 # Androwarn
 # https://manifestsecurity.com/android-application-security/
 
-VERSION=0.2
+VERSION=0.3
+
+echo "apkmagic tool rev ${VERSION} - Android Security Scanner / Toolkit"
+echo "by EthelHub - Cybersercurity && Research"
 
 if [ $# -eq 0 ]; then
-    echo "apkmagic tool rev ${VERSION} - Android Security Scanner / Toolkit"
-    echo "by EthelHub - Cybersercurity && Research"
-    echo ""
-    echo "Use : apkmagic FILENAME.APK"
+    echo "Use : $0 FILENAME.APK"
     exit
 fi 
+
+echo ""
+echo "Package : $1"
+echo ""
 
 # Paths
 FILE=$1
@@ -41,8 +45,6 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 . "$DIR/androbugs.inc"
 . "$DIR/qark.inc"
 . "$DIR/androwarn.inc"
-
-
 
 # PROCESO PRINCIPAL
 
