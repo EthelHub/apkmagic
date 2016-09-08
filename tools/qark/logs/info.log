@@ -3,7 +3,7 @@ INFO - Identified Android SDK installation from a previous run.
 INFO - Initializing QARK
 
 INFO - Unpacking /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks.apk
-INFO - Zipfile: <zipfile.ZipFile object at 0x101767890>
+INFO - Zipfile: <zipfile.ZipFile object at 0x10b438890>
 INFO - Extracted APK to /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/
 INFO - <?xml version="1.0" ?><manifest android:hardwareAccelerated="true" android:versionCode="18" android:versionName="0.0.1" package="com.ionicframework.nimbooks531236" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002" xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/>

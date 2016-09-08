@@ -3,13 +3,13 @@ PERMISSIONS_LIST=$DIR/permissions.list
 
 function parse_permissions {
     DATE=`date +%x-%H:%M:%S`
-    echo "[${DATE}] Parsing permissions from Manifest... (permissions.txt)"
+    debug "[${DATE}] Parsing permissions from Manifest... (permissions.txt)"
     fgrep android.permission $MANIFEST_FILE | cut -d'"' -f 2 | sort > $REPORT_DIR/permissions.txt
 }
 
 function dangerous_permissions {
     DATE=`date +%x-%H:%M:%S`
-    echo "[${DATE}] Looking for dangerous permissions... (dangerous.txt)"
+    debug "[${DATE}] Looking for dangerous permissions... (dangerous.txt)"
     for PERMISO in `cat $PERMISSIONS_LIST`
     do 
         ENCONTRADO=`grep -c $PERMISO $MANIFEST_FILE`

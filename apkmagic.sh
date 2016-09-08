@@ -10,25 +10,14 @@
 # jshint
 # http-server
 # perl
+# nikto
 
-VERSION=0.4
-
-echo "apkmagic tool rev ${VERSION} - Android Security Scanner / Toolkit"
-echo "by EthelHub - Cybersercurity && Research"
-
-if [ $# -eq 0 ]; then
-    echo "Use : $0 FILENAME.APK"
-    exit
-fi 
-
-echo ""
-echo "Package : $1"
-echo ""
+VERSION=0.6
 
 # Paths
-FILE=$1
 APK_DIR=`pwd`
 CUR_DIR=${PWD##*/}
+DEBUG=0
 
 # Includes
 DIR="${BASH_SOURCE%/*}"
@@ -42,8 +31,15 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 . "$DIR/androbugs.inc"
 . "$DIR/qark.inc"
 . "$DIR/androwarn.inc"
+. "$DIR/report.inc"
 
 # PROCESO PRINCIPAL
+echo "apkmagic tool rev ${VERSION} - Android Security Scanner / Toolkit"
+echo "by EthelHub - Cybersercurity && Research"
+parameters $@
+echo ""
+echo "Package : $FILE"
+echo ""
 
 # Extracción y creación de directorios
 echo "= Creating project directories and extracting sources..."
@@ -52,7 +48,7 @@ extract_apk
 extract_sources
 
 # Parseo de Manifest
-echo "" && echo "= Extracting basic info and permissions..."
+echo "" && echo "= Extracting package basic info and manifest permissions..."
 parse_name_version
 parse_permissions
 dangerous_permissions
@@ -73,13 +69,20 @@ if [ ${HAVE_PHONEGAP} ]; then
     launch_https
 fi
 
-echo "" && echo "= Looking for debug / hardcoded variables..."
+echo "" && echo "= Looking for hardcoded interesting strings..."
 search_debug
 search_multi $SOURCES_DIR sources_words.txt
+search_sql
+search_emails
+search_urls
+search_api
 
-echo "" && echo "= Executing vulnerability scanners..."
+echo "" && echo "= Executing Android vulnerability scanners..."
 scan_androbugs_apk
 scan_androwarn_apk
 scan_qark_apk
+
+echo "" && echo "= Generating report..."
+report
 
 echo "" && echo "= FINISHED."
