@@ -1,1 +1,225 @@
 INFO - Initializing...
+INFO - Identified Android SDK installation from a previous run.
+INFO - Initializing QARK
+
+INFO - Unpacking /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks.apk
+INFO - Zipfile: <zipfile.ZipFile object at 0x101767890>
+INFO - Extracted APK to /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/
+INFO - <?xml version="1.0" ?><manifest android:hardwareAccelerated="true" android:versionCode="18" android:versionName="0.0.1" package="com.ionicframework.nimbooks531236" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:debuggable="true" android:hardwareAccelerated="true" android:icon="@drawable/icon" android:label="@string/app_name" android:supportsRtl="true">
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize" android:label="@string/activity_name" android:launchMode="singleTop" android:name="com.ionicframework.nimbooks531236.MainActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.DeviceDefault.NoActionBar" android:windowSoftInputMode="adjustResize">
+            <intent-filter android:label="@string/launcher_name">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
+INFO - Determined minimum SDK version to be:16
+ISSUES - APP COMPONENT ATTACK SURFACE
+WARNING - The backup element is not specified in the manifest, which therefore defaults to true. Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
+POTENTIAL VULNERABILITY - The android:debuggable flag is manually set to true in the AndroidManifest.xml. This will cause your application to be debuggable in production builds and can result in data leakage and other security issues. It is not necessary to set the android:debuggable flag in the manifest, it will be set appropriately automatically by the tools. More info: http://developer.android.com/guide/topics/manifest/application-element.html#debug
+INFO - Checking provider
+INFO - Checking activity
+WARNING - The following activity are exported, but not protected by any permissions. Failing to protect activity could leave them vulnerable to attack by malicious apps. The activity should be reviewed for vulnerabilities, such as injection and information leakage.
+INFO - Checking activity-alias
+INFO - Checking services
+INFO - Checking receivers
+INFO - Please wait while QARK tries to decompile the code back to source using multiple decompilers. This may take a while.
+INFO - Trying to improve accuracy of the decompiled files
+INFO - Restored 7 file(s) out of 8 corrupt file(s)
+INFO - Decompiled code found at:/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/
+INFO - Finding all java files
+INFO - Finding all xml files
+INFO - Running Static Code Analysis...
+INFO - Looking for private key files in project
+INFO - This class is exported from a manifest item: MainActivity
+INFO - Checking this file for vulns: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/com/ionicframework/nimbooks531236/MainActivity.java
+INFO - Checking for extras in this file: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/com/ionicframework/nimbooks531236/MainActivity.java from this entry point: onCreate
+INFO - This class extends and calls a method in : CordovaActivity
+INFO - Checking this file for issues: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CordovaActivity.java
+ERROR - Unable to create tree for parsing: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CordovaActivity.java
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+ISSUES - CRYPTO ISSUES
+INFO -  No issues to report
+ISSUES - BROADCAST ISSUES
+INFO -  No issues to report
+ISSUES - CERTIFICATE VALIDATION ISSUES
+INFO -  No issues to report
+ISSUES - PENDING INTENT ISSUES
+INFO -  No issues to report
+ISSUES - FILE PERMISSION ISSUES
+INFO -  No issues to report
+ISSUES - WEB-VIEW ISSUES
+INFO - FOUND 10 WEBVIEWS:
+INFO - ['CordovaWebView app', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/PluginManager.java']
+INFO - ['CordovaWebView webView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CordovaPlugin.java']
+INFO - ['SystemWebView webView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/engine/SystemWebViewEngine.java']
+INFO - ['WebView webView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/engine/SystemCookieManager.java']
+INFO - ['appView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CordovaActivity.java']
+INFO - ['inAppWebView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java']
+INFO - ['parentWebView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/engine/SystemWebViewEngine.java']
+INFO - ['webView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CallbackContext.java']
+INFO - ['webView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java']
+INFO - ['webView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppChromeClient.java']
+INFO - WebView: CordovaWebView app
+INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/PluginManager.java
+
+INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
+WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
+INFO - JS not enabled on this webView.
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
+INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
+INFO - addJavascriptInterface not used in this WebView.
+INFO - DOM Storage not enabled for this WebView.
+INFO - WebView: CordovaWebView webView
+INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CordovaPlugin.java
+
+INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
+WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
+INFO - JS not enabled on this webView.
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
+INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
+INFO - addJavascriptInterface not used in this WebView.
+INFO - DOM Storage not enabled for this WebView.
+INFO - WebView: SystemWebView webView
+INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/engine/SystemWebViewEngine.java
+
+INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
+WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
+INFO - JS not enabled on this webView.
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
+INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
+INFO - addJavascriptInterface not used in this WebView.
+INFO - DOM Storage not enabled for this WebView.
+INFO - WebView: WebView webView
+INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/engine/SystemCookieManager.java
+
+INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
+WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
+INFO - JS not enabled on this webView.
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
+INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
+INFO - addJavascriptInterface not used in this WebView.
+INFO - DOM Storage not enabled for this WebView.
+INFO - WebView: appView
+INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CordovaActivity.java
+
+INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
+WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
+INFO - JS not enabled on this webView.
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
+INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
+INFO - addJavascriptInterface not used in this WebView.
+INFO - DOM Storage not enabled for this WebView.
+INFO - WebView: inAppWebView
+INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java
+
+INFO - JS not enabled on this webView. inAppWebView/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView.inAppWebView If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.inAppWebViewTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).inAppWebView
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowFileAccessFromFileURLs = false).inAppWebView
+INFO - addJavascriptInterface not used in this WebView.inAppWebView
+INFO - DOM Storage not enabled for this WebView.inAppWebView
+INFO - JS not enabled on this webView. inAppWebView/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView.inAppWebView If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.inAppWebViewTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).inAppWebView
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowFileAccessFromFileURLs = false).inAppWebView
+INFO - addJavascriptInterface not used in this WebView.inAppWebView
+INFO - DOM Storage not enabled for this WebView.inAppWebView
+INFO - JS not enabled on this webView. inAppWebView/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView.inAppWebView If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.inAppWebViewTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).inAppWebView
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowFileAccessFromFileURLs = false).inAppWebView
+INFO - addJavascriptInterface not used in this WebView.inAppWebView
+INFO - DOM Storage not enabled for this WebView.inAppWebView
+INFO - WebView: parentWebView
+INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/engine/SystemWebViewEngine.java
+
+INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
+WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
+INFO - JS not enabled on this webView.
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
+INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
+INFO - addJavascriptInterface not used in this WebView.
+INFO - DOM Storage not enabled for this WebView.
+INFO - WebView: webView
+INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CallbackContext.java
+
+INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
+WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
+INFO - JS not enabled on this webView.
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
+INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
+INFO - addJavascriptInterface not used in this WebView.
+INFO - DOM Storage not enabled for this WebView.
+INFO - WebView: webView
+INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java
+
+INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
+WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
+INFO - JS not enabled on this webView.
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
+INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
+INFO - addJavascriptInterface not used in this WebView.
+INFO - DOM Storage not enabled for this WebView.
+INFO - WebView: webView
+INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppChromeClient.java
+
+INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
+WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
+INFO - JS not enabled on this webView.
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
+INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
+INFO - addJavascriptInterface not used in this WebView.
+INFO - DOM Storage not enabled for this WebView.
+WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to complete this module. The impact should be verified manually anyway, so have fun...
+ISSUES - ADB EXPLOIT COMMANDS
+INFO - Until we perfect this, for manually testing, run the following command to see all the options and their meanings: adb shell am. Make sure to update qark frequently to get all the enhancements! You'll also find some good examples here: http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb
+INFO - Checking for extras in this file: com.ionicframework.nimbooks531236.MainActivity from this entry point: onCreate
+INFO - Checking for extras in this file: com.ionicframework.nimbooks531236.MainActivity from this entry point: onStart
+INFO - Support for other component types and dynamically adding extras is in the works, please check for updates

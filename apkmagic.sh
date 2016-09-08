@@ -1,20 +1,17 @@
 #!/bin/sh
 
-# apkmagic v0.2
-# EthelHub
+# apkmagic
+# Android Automated Security Scanner / Toolkit
+# 
+# by EthelHub - Cybersercurity && Research
 
-# Dependencias
+# Dependencies
 # jadx
 # jshint
 # http-server
 # perl
-# 
-# Proximas
-# https://manifestsecurity.com/appie/
-# Androwarn
-# https://manifestsecurity.com/android-application-security/
 
-VERSION=0.3
+VERSION=0.4
 
 echo "apkmagic tool rev ${VERSION} - Android Security Scanner / Toolkit"
 echo "by EthelHub - Cybersercurity && Research"
@@ -55,7 +52,7 @@ extract_apk
 extract_sources
 
 # Parseo de Manifest
-echo "= Extracting basic info and permissions..."
+echo "" && echo "= Extracting basic info and permissions..."
 parse_name_version
 parse_permissions
 dangerous_permissions
@@ -65,6 +62,7 @@ parse_sdk_version
 get_md5_apk
 get_sha1_apk
 
+echo "" && echo "= Looking for PhoneGap/Cordova Framework..."
 # Tratamiento PhoneGap / Cordova
 detect_phonegap
 if [ ${HAVE_PHONEGAP} ]; then
@@ -72,16 +70,16 @@ if [ ${HAVE_PHONEGAP} ]; then
     parse_phonegap
     scan_jshint
     search_multi $PHONEGAP_DIR phonegap_words.txt
-    #launch_https
+    launch_https
 fi
 
-echo "= Looking for debug / hardcoded variables..."
+echo "" && echo "= Looking for debug / hardcoded variables..."
 search_debug
 search_multi $SOURCES_DIR sources_words.txt
 
-echo "= Executing vulnerability scanners..."
+echo "" && echo "= Executing vulnerability scanners..."
 scan_androbugs_apk
 scan_androwarn_apk
 scan_qark_apk
 
-echo "= FINISHED."
+echo "" && echo "= FINISHED."

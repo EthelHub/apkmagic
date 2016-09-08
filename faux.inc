@@ -24,7 +24,7 @@ function extract_sources {
 }
 
 function get_md5_apk {
-    if [ $OS_TYPE -eq "linux" ]; then
+    if [ $OSTYPE == "linux" ]; then
         MD5=`md5sum ${APK_DIR}/apk/$FILE | cut -d' ' -f 1`
     else
         MD5=`md5 ${APK_DIR}/apk/$FILE | cut -d'=' -f 2 | cut -d' ' -f 2`
