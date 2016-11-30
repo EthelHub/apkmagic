@@ -2,7 +2,7 @@ function search_multi {
     DATE=`date +%x-%H:%M:%S`
     debug "[${DATE}] Search - Searching for interesting strings in $1... ($2)"
     cd $1
-    TEXTO=(user username password pass api key http)
+    TEXTO=(user username password pass api key http login webservice)
     for PALABRA in ${TEXTO[*]}
     do
         find . -type f -print0 ! -path '*.svn*' | xargs -0 grep -i  --exclude '*.min.*' --exclude '*.css' $PALABRA -  \

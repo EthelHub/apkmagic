@@ -2,224 +2,248 @@ INFO - Initializing...
 INFO - Identified Android SDK installation from a previous run.
 INFO - Initializing QARK
 
-INFO - Unpacking /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks.apk
-INFO - Zipfile: <zipfile.ZipFile object at 0x10b438890>
-INFO - Extracted APK to /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/
-INFO - <?xml version="1.0" ?><manifest android:hardwareAccelerated="true" android:versionCode="18" android:versionName="0.0.1" package="com.ionicframework.nimbooks531236" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002" xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/>
+INFO - Unpacking /Users/Kr0n0/Ing.Inversa/Proyectos/Citibox/apk/citibox.apk
+INFO - Zipfile: <zipfile.ZipFile object at 0x108895890>
+INFO - Extracted APK to /Users/Kr0n0/Ing.Inversa/Proyectos/Citibox/apk/citibox/
+INFO - <?xml version="1.0" ?><manifest android:hardwareAccelerated="true" android:versionCode="408" android:versionName="1.5.0" package="com.citibox.app" platformBuildVersionCode="23" platformBuildVersionName="6.0-2166767" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22"/>
     <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCOUNT_MANAGER"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.BIND_APPWIDGET"/>
+    <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN"/>
+    <uses-permission android:name="android.permission.BIND_INPUT_METHOD"/>
+    <uses-permission android:name="android.permission.BIND_REMOTEVIEWS"/>
+    <uses-permission android:name="android.permission.BIND_WALLPAPER"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BRICK"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REMOVED"/>
+    <uses-permission android:name="android.permission.BROADCAST_SMS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.BROADCAST_WAP_PUSH"/>
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"/>
+    <uses-permission android:name="android.permission.CONTROL_LOCATION_UPDATES"/>
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES"/>
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.DIAGNOSTIC"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.DUMP"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.FACTORY_TEST"/>
+    <uses-permission android:name="android.permission.FORCE_BACK"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.GLOBAL_SEARCH"/>
+    <uses-permission android:name="android.permission.HARDWARE_TEST"/>
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+    <uses-permission android:name="android.permission.INSTALL_LOCATION_PROVIDER"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_APP_TOKENS"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <application android:debuggable="true" android:hardwareAccelerated="true" android:icon="@drawable/icon" android:label="@string/app_name" android:supportsRtl="true">
-        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize" android:label="@string/activity_name" android:launchMode="singleTop" android:name="com.ionicframework.nimbooks531236.MainActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.DeviceDefault.NoActionBar" android:windowSoftInputMode="adjustResize">
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER"/>
+    <uses-permission android:name="android.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.READ_INPUT_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.SET_ACTIVITY_WATCHER"/>
+    <uses-permission android:name="android.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.SET_ALWAYS_FINISH"/>
+    <uses-permission android:name="android.permission.SET_ANIMATION_SCALE"/>
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.SET_ORIENTATION"/>
+    <uses-permission android:name="android.permission.SET_POINTER_SPEED"/>
+    <uses-permission android:name="android.permission.SET_PROCESS_LIMIT"/>
+    <uses-permission android:name="android.permission.SET_TIME"/>
+    <uses-permission android:name="android.permission.SET_TIME_ZONE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
+    <uses-permission android:name="android.permission.SIGNAL_PERSISTENT_PROCESSES"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ"/>
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.USE_SIP"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_GSERVICES"/>
+    <uses-permission android:name="android.permission.WRITE_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
+    <uses-permission android:name="android.permission.BIND_TEXT_SERVICE"/>
+    <uses-permission android:name="android.permission.BIND_VPN_SERVICE"/>
+    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM"/>
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.WRITE_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_SOCIAL_STREAM"/>
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="com.citibox.app.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.citibox.app.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-feature android:glEsVersion="0x20000" android:required="true"/>
+    <application android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:supportsRtl="true">
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize" android:label="@string/activity_name" android:launchMode="singleTop" android:name="com.citibox.app.MainActivity" android:theme="@android:style/Theme.Black.NoTitleBar" android:windowSoftInputMode="adjustResize">
             <intent-filter android:label="@string/launcher_name">
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="@string/google_maps_key"/>
+        <activity android:label="@string/title_activity_maps" android:name="com.citibox.app.MapsActivity"/>
+        <activity android:exported="true" android:name="com.adobe.phonegap.push.PushHandlerActivity"/>
+        <receiver android:exported="true" android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.citibox.app"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.adobe.phonegap.push.GCMIntentService">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.adobe.phonegap.push.PushInstanceIDListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.adobe.phonegap.push.RegistrationIntentService"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.google.zxing.client.android.CaptureActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/share_name" android:name="com.google.zxing.client.android.encode.EncodeActivity">
+            <intent-filter>
+                <action android:name="com.phonegap.plugins.barcodescanner.ENCODE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/share_name" android:name="com.google.zxing.client.android.HelpActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="true" android:name="com.google.android.gms.analytics.AnalyticsReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <receiver android:exported="true" android:name="com.google.android.gms.analytics.CampaignTrackingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService"/>
+        <provider android:authorities="com.citibox.app.google_measurement_service" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"/>
+        <receiver android:enabled="true" android:name="com.google.android.gms.measurement.AppMeasurementReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme"/>
+        <activity android:exported="true" android:name="com.google.android.gms.appinvite.PreviewActivity" android:theme="@style/Theme.AppInvite.Preview">
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
     </application>
 </manifest>
-INFO - Determined minimum SDK version to be:16
+INFO - Determined minimum SDK version to be:14
+WARNING - Logs are world readable on pre-4.1 devices. A malicious app could potentially retrieve sensitive data from the logs.
 ISSUES - APP COMPONENT ATTACK SURFACE
 WARNING - The backup element is not specified in the manifest, which therefore defaults to true. Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
-POTENTIAL VULNERABILITY - The android:debuggable flag is manually set to true in the AndroidManifest.xml. This will cause your application to be debuggable in production builds and can result in data leakage and other security issues. It is not necessary to set the android:debuggable flag in the manifest, it will be set appropriately automatically by the tools. More info: http://developer.android.com/guide/topics/manifest/application-element.html#debug
 INFO - Checking provider
 INFO - Checking activity
 WARNING - The following activity are exported, but not protected by any permissions. Failing to protect activity could leave them vulnerable to attack by malicious apps. The activity should be reviewed for vulnerabilities, such as injection and information leakage.
 INFO - Checking activity-alias
 INFO - Checking services
+POTENTIAL VULNERABILITY - The following service are exported and protected by a permission, but the permission can be obtained by malicious apps installed prior to this one. More info: https://github.com/commonsguy/cwac-security/blob/master/PERMS.md. Failing to protect service could leave them vulnerable to attack by malicious apps. The service should be reviewed for vulnerabilities, such as injection and information leakage.
 INFO - Checking receivers
+POTENTIAL VULNERABILITY - The following receiver are exported and protected by a permission, but the permission can be obtained by malicious apps installed prior to this one. More info: https://github.com/commonsguy/cwac-security/blob/master/PERMS.md. Failing to protect receiver could leave them vulnerable to attack by malicious apps. The receiver should be reviewed for vulnerabilities, such as injection and information leakage.
+WARNING - The following receiver are exported, but not protected by any permissions. Failing to protect receiver could leave them vulnerable to attack by malicious apps. The receiver should be reviewed for vulnerabilities, such as injection and information leakage.
 INFO - Please wait while QARK tries to decompile the code back to source using multiple decompilers. This may take a while.
 INFO - Trying to improve accuracy of the decompiled files
-INFO - Restored 7 file(s) out of 8 corrupt file(s)
-INFO - Decompiled code found at:/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/
+INFO - Restored 280 file(s) out of 296 corrupt file(s)
+INFO - Decompiled code found at:/Users/Kr0n0/Ing.Inversa/Proyectos/Citibox/apk/citibox/
 INFO - Finding all java files
 INFO - Finding all xml files
 INFO - Running Static Code Analysis...
 INFO - Looking for private key files in project
-INFO - This class is exported from a manifest item: MainActivity
-INFO - Checking this file for vulns: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/com/ionicframework/nimbooks531236/MainActivity.java
-INFO - Checking for extras in this file: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/com/ionicframework/nimbooks531236/MainActivity.java from this entry point: onCreate
-INFO - This class extends and calls a method in : CordovaActivity
-INFO - Checking this file for issues: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CordovaActivity.java
-ERROR - Unable to create tree for parsing: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CordovaActivity.java
-INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
-ISSUES - CRYPTO ISSUES
-INFO -  No issues to report
-ISSUES - BROADCAST ISSUES
-INFO -  No issues to report
-ISSUES - CERTIFICATE VALIDATION ISSUES
-INFO -  No issues to report
-ISSUES - PENDING INTENT ISSUES
-INFO -  No issues to report
-ISSUES - FILE PERMISSION ISSUES
-INFO -  No issues to report
-ISSUES - WEB-VIEW ISSUES
-INFO - FOUND 10 WEBVIEWS:
-INFO - ['CordovaWebView app', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/PluginManager.java']
-INFO - ['CordovaWebView webView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CordovaPlugin.java']
-INFO - ['SystemWebView webView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/engine/SystemWebViewEngine.java']
-INFO - ['WebView webView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/engine/SystemCookieManager.java']
-INFO - ['appView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CordovaActivity.java']
-INFO - ['inAppWebView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java']
-INFO - ['parentWebView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/engine/SystemWebViewEngine.java']
-INFO - ['webView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CallbackContext.java']
-INFO - ['webView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java']
-INFO - ['webView', '/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppChromeClient.java']
-INFO - WebView: CordovaWebView app
-INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/PluginManager.java
-
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: CordovaWebView webView
-INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CordovaPlugin.java
-
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: SystemWebView webView
-INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/engine/SystemWebViewEngine.java
-
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: WebView webView
-INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/engine/SystemCookieManager.java
-
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: appView
-INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CordovaActivity.java
-
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: inAppWebView
-INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java
-
-INFO - JS not enabled on this webView. inAppWebView/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView.inAppWebView If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.inAppWebViewTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).inAppWebView
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowFileAccessFromFileURLs = false).inAppWebView
-INFO - addJavascriptInterface not used in this WebView.inAppWebView
-INFO - DOM Storage not enabled for this WebView.inAppWebView
-INFO - JS not enabled on this webView. inAppWebView/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView.inAppWebView If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.inAppWebViewTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).inAppWebView
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowFileAccessFromFileURLs = false).inAppWebView
-INFO - addJavascriptInterface not used in this WebView.inAppWebView
-INFO - DOM Storage not enabled for this WebView.inAppWebView
-INFO - JS not enabled on this webView. inAppWebView/Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView.inAppWebView If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.inAppWebViewTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).inAppWebView
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowFileAccessFromFileURLs = false).inAppWebView
-INFO - addJavascriptInterface not used in this WebView.inAppWebView
-INFO - DOM Storage not enabled for this WebView.inAppWebView
-INFO - WebView: parentWebView
-INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/engine/SystemWebViewEngine.java
-
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: webView
-INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/CallbackContext.java
-
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: webView
-INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppBrowser.java
-
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: webView
-INFO - File: /Users/Kr0n0/Desarrollo/Proyectos/EthelHub/apks/nimbooks/apk/nimbooks/classes_dex2jar/org/apache/cordova/inappbrowser/InAppChromeClient.java
-
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
-WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to complete this module. The impact should be verified manually anyway, so have fun...
-ISSUES - ADB EXPLOIT COMMANDS
-INFO - Until we perfect this, for manually testing, run the following command to see all the options and their meanings: adb shell am. Make sure to update qark frequently to get all the enhancements! You'll also find some good examples here: http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb
-INFO - Checking for extras in this file: com.ionicframework.nimbooks531236.MainActivity from this entry point: onCreate
-INFO - Checking for extras in this file: com.ionicframework.nimbooks531236.MainActivity from this entry point: onStart
-INFO - Support for other component types and dynamically adding extras is in the works, please check for updates
