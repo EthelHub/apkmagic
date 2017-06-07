@@ -12,7 +12,7 @@
 # perl
 # nikto
 
-VERSION=0.6
+VERSION=0.7
 
 # Paths
 APK_DIR=`pwd`
@@ -32,6 +32,7 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 . "$DIR/qark.inc"
 . "$DIR/androwarn.inc"
 . "$DIR/report.inc"
+. "$DIR/extract_sources.inc"
 
 # PROCESO PRINCIPAL
 echo "apkmagic tool rev ${VERSION} - Android Security Scanner / Toolkit"
@@ -45,8 +46,10 @@ echo ""
 echo "= Creating project directories and extracting sources..."
 create_project_structure
 extract_apk
-extract_sources
-
+#extract_sources_jadx
+extract_sources_enjarify
+echo AAAA
+sleep 5
 # Parseo de Manifest
 echo "" && echo "= Extracting package basic info and manifest permissions..."
 parse_name_version

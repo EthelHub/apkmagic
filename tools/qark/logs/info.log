@@ -2,248 +2,133 @@ INFO - Initializing...
 INFO - Identified Android SDK installation from a previous run.
 INFO - Initializing QARK
 
-INFO - Unpacking /Users/Kr0n0/Ing.Inversa/Proyectos/Citibox/apk/citibox.apk
-INFO - Zipfile: <zipfile.ZipFile object at 0x108895890>
-INFO - Extracted APK to /Users/Kr0n0/Ing.Inversa/Proyectos/Citibox/apk/citibox/
-INFO - <?xml version="1.0" ?><manifest android:hardwareAccelerated="true" android:versionCode="408" android:versionName="1.5.0" package="com.citibox.app" platformBuildVersionCode="23" platformBuildVersionName="6.0-2166767" xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22"/>
-    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
-    <uses-permission android:name="android.permission.VIBRATE"/>
-    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
-    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
-    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <uses-permission android:name="android.permission.ACCOUNT_MANAGER"/>
-    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
-    <uses-permission android:name="android.permission.BATTERY_STATS"/>
-    <uses-permission android:name="android.permission.BIND_APPWIDGET"/>
-    <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN"/>
-    <uses-permission android:name="android.permission.BIND_INPUT_METHOD"/>
-    <uses-permission android:name="android.permission.BIND_REMOTEVIEWS"/>
-    <uses-permission android:name="android.permission.BIND_WALLPAPER"/>
+INFO - Unpacking /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba.apk
+INFO - Zipfile: <zipfile.ZipFile object at 0x10eb806d0>
+INFO - Extracted APK to /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/
+INFO - <?xml version="1.0" ?><manifest android:versionCode="27" android:versionName="2.4.2" package="com.xesolinnovation.android.escriba" platformBuildVersionCode="24" platformBuildVersionName="7.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="20" android:targetSdkVersion="24"/>
     <uses-permission android:name="android.permission.BLUETOOTH"/>
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-    <uses-permission android:name="android.permission.BRICK"/>
-    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REMOVED"/>
-    <uses-permission android:name="android.permission.BROADCAST_SMS"/>
-    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
-    <uses-permission android:name="android.permission.BROADCAST_WAP_PUSH"/>
-    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
-    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
-    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
-    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
-    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
-    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"/>
-    <uses-permission android:name="android.permission.CONTROL_LOCATION_UPDATES"/>
-    <uses-permission android:name="android.permission.DELETE_CACHE_FILES"/>
-    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
-    <uses-permission android:name="android.permission.DEVICE_POWER"/>
-    <uses-permission android:name="android.permission.DIAGNOSTIC"/>
-    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
-    <uses-permission android:name="android.permission.DUMP"/>
-    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
-    <uses-permission android:name="android.permission.FACTORY_TEST"/>
-    <uses-permission android:name="android.permission.FORCE_BACK"/>
-    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
-    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
-    <uses-permission android:name="android.permission.GET_TASKS"/>
-    <uses-permission android:name="android.permission.GLOBAL_SEARCH"/>
-    <uses-permission android:name="android.permission.HARDWARE_TEST"/>
-    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
-    <uses-permission android:name="android.permission.INSTALL_LOCATION_PROVIDER"/>
-    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
-    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
-    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
-    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
-    <uses-permission android:name="android.permission.MANAGE_APP_TOKENS"/>
-    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
-    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
-    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
-    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS"/>
-    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
-    <uses-permission android:name="android.permission.NFC"/>
-    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
-    <uses-permission android:name="android.permission.READ_CALENDAR"/>
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_FRAME_BUFFER"/>
-    <uses-permission android:name="android.permission.READ_HISTORY_BOOKMARKS"/>
-    <uses-permission android:name="android.permission.READ_INPUT_STATE"/>
-    <uses-permission android:name="android.permission.READ_LOGS"/>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-    <uses-permission android:name="android.permission.READ_SMS"/>
-    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
-    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
-    <uses-permission android:name="android.permission.REBOOT"/>
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
-    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
-    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
-    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-    <uses-permission android:name="android.permission.REORDER_TASKS"/>
-    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
-    <uses-permission android:name="android.permission.SET_ACTIVITY_WATCHER"/>
-    <uses-permission android:name="android.permission.SET_ALARM"/>
-    <uses-permission android:name="android.permission.SET_ALWAYS_FINISH"/>
-    <uses-permission android:name="android.permission.SET_ANIMATION_SCALE"/>
-    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
-    <uses-permission android:name="android.permission.SET_ORIENTATION"/>
-    <uses-permission android:name="android.permission.SET_POINTER_SPEED"/>
-    <uses-permission android:name="android.permission.SET_PROCESS_LIMIT"/>
-    <uses-permission android:name="android.permission.SET_TIME"/>
-    <uses-permission android:name="android.permission.SET_TIME_ZONE"/>
-    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
-    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
-    <uses-permission android:name="android.permission.SIGNAL_PERSISTENT_PROCESSES"/>
-    <uses-permission android:name="android.permission.STATUS_BAR"/>
-    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ"/>
-    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE"/>
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
-    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"/>
-    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
-    <uses-permission android:name="android.permission.USE_SIP"/>
-    <uses-permission android:name="android.permission.VIBRATE"/>
-    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
-    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
-    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_GSERVICES"/>
-    <uses-permission android:name="android.permission.WRITE_HISTORY_BOOKMARKS"/>
-    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
-    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
-    <uses-permission android:name="android.permission.WRITE_SMS"/>
-    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
-    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
-    <uses-permission android:name="android.permission.BIND_TEXT_SERVICE"/>
-    <uses-permission android:name="android.permission.BIND_VPN_SERVICE"/>
-    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY"/>
-    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
-    <uses-permission android:name="android.permission.READ_PROFILE"/>
-    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM"/>
-    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
-    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
-    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS"/>
-    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
-    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
-    <uses-permission android:name="android.permission.WRITE_PROFILE"/>
-    <uses-permission android:name="android.permission.WRITE_SOCIAL_STREAM"/>
-    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY"/>
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
-    <permission android:name="com.citibox.app.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
-    <uses-permission android:name="com.citibox.app.permission.C2D_MESSAGE"/>
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.FLASHLIGHT"/>
-    <uses-feature android:name="android.hardware.camera" android:required="false"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
-    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
-    <uses-feature android:glEsVersion="0x20000" android:required="true"/>
-    <application android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:supportsRtl="true">
-        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize" android:label="@string/activity_name" android:launchMode="singleTop" android:name="com.citibox.app.MainActivity" android:theme="@android:style/Theme.Black.NoTitleBar" android:windowSoftInputMode="adjustResize">
-            <intent-filter android:label="@string/launcher_name">
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.xesolinnovation.escriba.utils.EscribaApplication" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name="com.xesolinnovation.escriba.ui.activities.SplashActivity" android:screenOrientation="portrait">
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
-        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="@string/google_maps_key"/>
-        <activity android:label="@string/title_activity_maps" android:name="com.citibox.app.MapsActivity"/>
-        <activity android:exported="true" android:name="com.adobe.phonegap.push.PushHandlerActivity"/>
-        <receiver android:exported="true" android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+        <activity android:name="com.xesolinnovation.escriba.ui.activities.InitialTourActivity" android:screenOrientation="portrait" android:theme="@style/EscribaStyle"/>
+        <activity android:launchMode="singleInstance" android:name="com.xesolinnovation.escriba.ui.activities.MainActivity" android:screenOrientation="portrait" android:theme="@style/EscribaStyle"/>
+        <activity android:name="com.xesolinnovation.escriba.ui.activities.PrivacyActivity" android:screenOrientation="portrait" android:theme="@style/EscribaStyle"/>
+        <activity android:name="com.xesolinnovation.escriba.ui.activities.ContactsActivity" android:screenOrientation="portrait" android:theme="@style/EscribaStyle"/>
+        <activity android:name="com.xesolinnovation.escriba.ui.activities.EmojisActivity" android:screenOrientation="portrait" android:theme="@style/EscribaStyle"/>
+        <activity android:name="com.xesolinnovation.escriba.ui.activities.FAQActivity" android:screenOrientation="portrait" android:theme="@style/EscribaStyle"/>
+        <activity android:name="com.xesolinnovation.escriba.ui.activities.EscribaGOActivity" android:screenOrientation="portrait" android:theme="@style/EscribaStyle"/>
+        <activity android:name="com.xesolinnovation.escriba.ui.activities.StoreActivity" android:screenOrientation="portrait" android:theme="@style/EscribaStyle"/>
+        <service android:name="com.xesolinnovation.escriba.core.input.XNotificationListenerService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
-                <category android:name="com.citibox.app"/>
-            </intent-filter>
-        </receiver>
-        <service android:exported="false" android:name="com.adobe.phonegap.push.GCMIntentService">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="android.service.notification.NotificationListenerService"/>
             </intent-filter>
         </service>
-        <service android:exported="false" android:name="com.adobe.phonegap.push.PushInstanceIDListenerService">
+        <service android:enabled="true" android:label="@string/accessibility_service_name" android:name="com.xesolinnovation.escriba.core.input.XAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
-                <action android:name="com.google.android.gms.iid.InstanceID"/>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
             </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility_service_config"/>
         </service>
-        <service android:exported="false" android:name="com.adobe.phonegap.push.RegistrationIntentService"/>
-        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.google.zxing.client.android.CaptureActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden">
+        <receiver android:name="com.xesolinnovation.escriba.core.receivers.NotificationButtonReceiver"/>
+        <receiver android:name="com.xesolinnovation.escriba.core.receivers.PhoneStateReceiver">
             <intent-filter>
-                <action android:name="com.google.zxing.client.android.SCAN"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
-        <activity android:label="@string/share_name" android:name="com.google.zxing.client.android.encode.EncodeActivity">
-            <intent-filter>
-                <action android:name="com.phonegap.plugins.barcodescanner.ENCODE"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
-        <activity android:label="@string/share_name" android:name="com.google.zxing.client.android.HelpActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
-        <receiver android:enabled="true" android:name="com.google.android.gms.analytics.AnalyticsReceiver">
-            <intent-filter>
-                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH"/>
+                <action android:name="android.intent.action.PHONE_STATE"/>
             </intent-filter>
         </receiver>
-        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
-        <receiver android:exported="true" android:name="com.google.android.gms.analytics.CampaignTrackingReceiver">
+        <receiver android:name="com.xesolinnovation.escriba.core.receivers.LocaleChangedReceiver">
             <intent-filter>
-                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
             </intent-filter>
         </receiver>
-        <service android:name="com.google.android.gms.analytics.CampaignTrackingService"/>
-        <provider android:authorities="com.citibox.app.google_measurement_service" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"/>
-        <receiver android:enabled="true" android:name="com.google.android.gms.measurement.AppMeasurementReceiver">
-            <intent-filter>
-                <action android:name="com.google.android.gms.measurement.UPLOAD"/>
-            </intent-filter>
-        </receiver>
-        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
-        <activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme"/>
-        <activity android:exported="true" android:name="com.google.android.gms.appinvite.PreviewActivity" android:theme="@style/Theme.AppInvite.Preview">
-            <intent-filter>
-                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
-        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="beac850ebe2648dcd254a9736166155a0cd8c2a5"/>
+        <activity android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity" android:process=":error_activity" android:theme="@style/CustomActivityOnCrashTheme"/>
     </application>
 </manifest>
-INFO - Determined minimum SDK version to be:14
-WARNING - Logs are world readable on pre-4.1 devices. A malicious app could potentially retrieve sensitive data from the logs.
+INFO - Determined minimum SDK version to be:20
 ISSUES - APP COMPONENT ATTACK SURFACE
-WARNING - The backup element is not specified in the manifest, which therefore defaults to true. Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
+WARNING - Backups enabled: Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
 INFO - Checking provider
 INFO - Checking activity
 WARNING - The following activity are exported, but not protected by any permissions. Failing to protect activity could leave them vulnerable to attack by malicious apps. The activity should be reviewed for vulnerabilities, such as injection and information leakage.
 INFO - Checking activity-alias
 INFO - Checking services
-POTENTIAL VULNERABILITY - The following service are exported and protected by a permission, but the permission can be obtained by malicious apps installed prior to this one. More info: https://github.com/commonsguy/cwac-security/blob/master/PERMS.md. Failing to protect service could leave them vulnerable to attack by malicious apps. The service should be reviewed for vulnerabilities, such as injection and information leakage.
 INFO - Checking receivers
-POTENTIAL VULNERABILITY - The following receiver are exported and protected by a permission, but the permission can be obtained by malicious apps installed prior to this one. More info: https://github.com/commonsguy/cwac-security/blob/master/PERMS.md. Failing to protect receiver could leave them vulnerable to attack by malicious apps. The receiver should be reviewed for vulnerabilities, such as injection and information leakage.
 WARNING - The following receiver are exported, but not protected by any permissions. Failing to protect receiver could leave them vulnerable to attack by malicious apps. The receiver should be reviewed for vulnerabilities, such as injection and information leakage.
 INFO - Please wait while QARK tries to decompile the code back to source using multiple decompilers. This may take a while.
 INFO - Trying to improve accuracy of the decompiled files
-INFO - Restored 280 file(s) out of 296 corrupt file(s)
-INFO - Decompiled code found at:/Users/Kr0n0/Ing.Inversa/Proyectos/Citibox/apk/citibox/
+INFO - Restored 48 file(s) out of 50 corrupt file(s)
+INFO - Decompiled code found at:/Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/
 INFO - Finding all java files
 INFO - Finding all xml files
 INFO - Running Static Code Analysis...
 INFO - Looking for private key files in project
+INFO - This class is exported from a manifest item: SplashActivity
+INFO - Checking this file for vulns: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/ui/activities/SplashActivity.java
+INFO - Checking for extras in this file: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/ui/activities/SplashActivity.java from this entry point: onCreate
+INFO - This class extends and calls a method in : Activity
+INFO - This class is exported from a manifest item: XAccessibilityService
+INFO - Checking this file for vulns: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/core/input/XAccessibilityService.java
+INFO - Checking for extras in this file: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/core/input/XAccessibilityService.java from this entry point: onCreate
+INFO - This class extends and calls a method in : AccessibilityService
+INFO - This class is exported from a manifest item: XNotificationListenerService
+INFO - Checking this file for vulns: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/core/input/XNotificationListenerService.java
+INFO - Checking for extras in this file: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/core/input/XNotificationListenerService.java from this entry point: onCreate
+INFO - This class extends and calls a method in : NotificationListenerService
+INFO - This class is exported from a manifest item: LocaleChangedReceiver
+INFO - Checking this file for vulns: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/core/receivers/LocaleChangedReceiver.java
+INFO - Checking for extras in this file: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/core/receivers/LocaleChangedReceiver.java from this entry point: onReceive
+INFO - This class is exported from a manifest item: PhoneStateReceiver
+INFO - Checking this file for vulns: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/core/receivers/PhoneStateReceiver.java
+INFO - Checking for extras in this file: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/core/receivers/PhoneStateReceiver.java from this entry point: onReceive
+ISSUES - CRYPTO ISSUES
+INFO -  No issues to report
+ISSUES - BROADCAST ISSUES
+WARNING - A broadcast is sent from this class: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/core/process/Engine.java, which does not specify the receiverPermission. This means any application on the device can receive this broadcast. You should investigate this for potential data leakage.
+WARNING - A broadcast is sent from this class: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/helpers/LicenseHelper.java, which does not specify the receiverPermission. This means any application on the device can receive this broadcast. You should investigate this for potential data leakage.
+ISSUES - CERTIFICATE VALIDATION ISSUES
+INFO -  No issues to report
+ISSUES - PENDING INTENT ISSUES
+POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A malicious application could potentially intercept, redirect and/or modify (in a limited manner) this Intent. Pending Intents retain the UID of your application and all related permissions, allowing another application to act as yours.  File: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/android/support/v4/app/TaskStackBuilder.java More details: https://www.securecoding.cert.org/confluence/display/android/DRD21-J.+Always+pass+explicit+intents+to+a+PendingIntent
+POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A malicious application could potentially intercept, redirect and/or modify (in a limited manner) this Intent. Pending Intents retain the UID of your application and all related permissions, allowing another application to act as yours.  File: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/android/support/v4/media/session/MediaButtonReceiver.java More details: https://www.securecoding.cert.org/confluence/display/android/DRD21-J.+Always+pass+explicit+intents+to+a+PendingIntent
+ISSUES - FILE PERMISSION ISSUES
+INFO -  No issues to report
+ISSUES - WEB-VIEW ISSUES
+INFO - FOUND 1 WEBVIEWS:
+INFO - ['mWebView', '/Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/ui/activities/FAQActivity.java']
+INFO - WebView: mWebView
+INFO - File: /Users/Kr0n0/Ing.Inversa/Escriba/apk/escriba/classes_dex2jar/com/xesolinnovation/escriba/ui/activities/FAQActivity.java
+
+WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this WebView: mWebView If this is not expressly necessary, you should disable it, to prevent the possibility of XSS (cross-site scripting) attacks. More info: http://developer.android.com/guide/practices/security.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/JS_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/JS_WARNING.html
+
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView.mWebView If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.mWebViewTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).mWebView
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowFileAccessFromFileURLs = false).mWebView
+INFO - addJavascriptInterface not used in this WebView.mWebView
+INFO - DOM Storage not enabled for this WebView.mWebView
+WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to complete this module. The impact should be verified manually anyway, so have fun...
+ISSUES - ADB EXPLOIT COMMANDS
+INFO - Until we perfect this, for manually testing, run the following command to see all the options and their meanings: adb shell am. Make sure to update qark frequently to get all the enhancements! You'll also find some good examples here: http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb
+INFO - Checking for extras in this file: com.xesolinnovation.escriba.ui.activities.SplashActivity from this entry point: onCreate
+INFO - Checking for extras in this file: com.xesolinnovation.escriba.ui.activities.SplashActivity from this entry point: onStart
+INFO - Checking for extras in this file: com.xesolinnovation.escriba.core.receivers.LocaleChangedReceiver from this entry point: onReceive
+INFO - Checking for extras in this file: com.xesolinnovation.escriba.core.receivers.PhoneStateReceiver from this entry point: onReceive
+INFO - Support for other component types and dynamically adding extras is in the works, please check for updates

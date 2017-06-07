@@ -1,5 +1,3 @@
-JADX_PATH=${DIR}/tools/jadx/bin
-
 function display_help {
   echo "Use : apkmagic -f FILENAME.APK [extra_options]"
   echo "Extra options:"
@@ -64,13 +62,6 @@ function extract_apk {
     debug "[${DATE}] Extracting apk $FILE into ${APK_DIR}/apk/src... (extract_apk.txt)"
     cd ${APK_DIR}/apk/src && unzip -q ${APK_DIR}/$FILE > $LOG_DIR/extract_apk.txt 2>&1
     cd ${APK_DIR}
-}
-
-function extract_sources {
-    DATE=`date +%x-%H:%M:%S`
-    debug "[${DATE}] Extracting sources into ${APK_DIR}/sources... (extract_sources.txt)"
-    cd ${APK_DIR}
-    ${JADX_PATH}/jadx apk/${FILE} -d sources --deobf > $LOG_DIR/extract_sources.txt 2>&1
 }
 
 function get_md5_apk {

@@ -1,9 +1,9 @@
 <resources>
-    <string-array name="exportedReceivers" />
-    <string-array name="exportedServices" />
-    <string-array name="exportedContentProviders" />
-    <string-array name="exportedActivities"><item>activity1</item></string-array>
-    <string-array name="exportedBroadcasts" />
+    <string-array name="exportedReceivers"></string-array>
+    <string-array name="exportedServices"></string-array>
+    <string-array name="exportedContentProviders"></string-array>
+    <string-array name="exportedActivities"></string-array>
+    <string-array name="exportedBroadcasts"></string-array>
     <string-array name="webViewTests">
         <item>"JS_AOSP"</item>
         <item>"JS_CHROME"</item>

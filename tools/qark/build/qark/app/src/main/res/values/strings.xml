@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">QARK</string>
@@ -21,7 +22,7 @@
     <string name="tap_jacking_text">This application demonstrates TapJacking.</string>
     <string name="title_activity_choose_intent_use_case">ChooseIntentUseCaseActivity</string>
 
-    
+    <!--Create new intent-->
     <string name="action_new_custom_intent">Create new custom intent</string>
 
     <string name="activity_create_custom_intent_title">Create a custom intent.</string>
@@ -198,7 +199,7 @@
         <item>sendStickyBroadcast</item>
     </string-array>
 
-    
-    
+    <!-- Test Data. Uncomment to compile. This data is added dynamically later when the app is installed through the tool. -->
+    <!--<string name="packageName">com.mypackage</string>-->
 
-<string name="packageName">com.ionicframework.nimbooks531236</string><string name="activity1">com.ionicframework.nimbooks531236.MainActivity</string></resources>
+</resources>
