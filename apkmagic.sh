@@ -48,8 +48,7 @@ create_project_structure
 extract_apk
 #extract_sources_jadx
 extract_sources_enjarify
-echo AAAA
-sleep 5
+
 # Parseo de Manifest
 echo "" && echo "= Extracting package basic info and manifest permissions..."
 parse_name_version
